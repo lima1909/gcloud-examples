@@ -27,7 +27,7 @@ type Person struct {
 // dev_appserver.py --enable_console --clear_datastore  --port=8082 app.yaml
 //
 // Aufruf: http://localhost:8082/
-//
+// :+1:
 func main() {
 
 	http.HandleFunc("/", list)
